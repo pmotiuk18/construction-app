@@ -14,23 +14,23 @@ export const SliderData = [
         alt: 'House'
     },
     {
-        title: 'Elewacja budynku wolnostojącego',
-        price: '150PLN/m²',
+        title: 'Ocieplanie budynku',
+        price: '70PLN/m²',
         path: '/homes',
         label: 'Wycena',
         image: img2,
         alt: 'House'
     },
     {
-        title: 'Elewacja budynku wolnostojącego',
-        price: '130PLN/m²',
+        title: 'Nałożenie koloru',
+        price: '80PLN/m²',
         path: '/homes',
         label: 'Wycena',
         image: img3,
         alt: 'House'
     },
     {
-        title: 'Elewacja budynku wolnostojącego',
+        title: 'Wykończenia kuchni, łazienek, salonów',
         price: '180PLN/m²',
         path: '/homes',
         label: 'Wycena',
