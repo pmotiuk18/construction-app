@@ -71,10 +71,6 @@ color: #fff;
 top: 130px;
 left: 50px;
 
-@media screen and (max-width: 768px) {
-    display: block;
-}
-
 h1 {
     font-size: clamp(1.7rem, 8vw, 1.7rem);
     font-weight: 400;
@@ -92,7 +88,9 @@ h1 {
 
 `;
 
-const Arrow = styled(IoMdArrowRoundForward)``;
+const Arrow = styled(IoMdArrowRoundForward)`
+margin-left: 0.5rem;
+`;
 
 const SliderButtons = styled.div`
 position: absolute;
