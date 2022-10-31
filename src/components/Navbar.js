@@ -39,7 +39,7 @@ display: none;
   background-size: contain;
   height: 60px;
   width: 60px;
- 
+ cursor: pointer;
   color: white;
   position: absolute;
   top: 0px;
@@ -79,20 +79,20 @@ margin-right: 24px;
 
 
 
-    const Navbar = () => {
+    const Navbar = ({ toggle }) => {
       return (
         <Nav>
           <Logo to="/">LOGO</Logo>
-          <MenuBars />
+          <MenuBars onClick={toggle} />
           <NavMenu>
             {menuData.map((item, index) => (
-              <NavMenuLinks to= {item.link} key={index}>
+              <NavMenuLinks to={item.link} key={index}>
                 {item.title}
               </NavMenuLinks>
             ))}
           </NavMenu>
               <NavBtn>
-                <Button to="contact" primary='true'>Kontakt</Button>
+                <Button to="/contact" primary='true'>Kontakt</Button>
               </NavBtn>
         </Nav>
       );
