@@ -128,6 +128,8 @@ const NextArrow = styled(IoArrowForward)`
 
 
 const Hero = ({ slides }) => {
+const [current, setCurrent] = useState(0)
+
   return (
     <HeroSection>
         <HeroWrapper>
