@@ -71,6 +71,11 @@ color: #fff;
 top: 130px;
 left: 50px;
 
+@media screen and (max-width: 768px) {
+    top: 350px;
+    left: 80px;
+}
+
 h1 {
     font-size: clamp(1.7rem, 8vw, 1.7rem);
     font-weight: 400;
