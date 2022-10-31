@@ -10,7 +10,7 @@ position: fixed;
 z-index: 999;
 width: 100%;
 height: 100%;
-background: #368BC1;
+background: #0C090A;
 display: grid;
 align-items: center;
 top: 0;
