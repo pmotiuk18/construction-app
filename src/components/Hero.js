@@ -1,4 +1,4 @@
-import React, {useState, useRef} from 'react'
+import React, {} from 'react'
 import styled, { css } from 'styled-components/macro'
 import { Button } from './Button';
 import {IoMdArrowRoundForward} from 'react-icons/io'
@@ -128,7 +128,7 @@ const NextArrow = styled(IoArrowForward)`
 
 
 const Hero = ({ slides }) => {
-const [current, setCurrent] = useState(0)
+// const [current, setCurrent] = useState(0)
 
   return (
     <HeroSection>
