@@ -39,7 +39,7 @@ display: none;
   background-size: contain;
   height: 60px;
   width: 60px;
-  cursor: pointer;
+ 
   color: white;
   position: absolute;
   top: 0px;
