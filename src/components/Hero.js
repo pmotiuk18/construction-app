@@ -73,7 +73,7 @@ left: 50px;
 
 @media screen and (max-width: 768px) {
     top: 350px;
-    left: 80px;
+    left: 50px;
 }
 
 h1 {
@@ -105,8 +105,8 @@ display: flex;
 z-index: 10;
 
 @media screen and (max-width: 768px) {
-  bottom: 70px;
-  right: 30px;
+  bottom: 100px;
+  right: 50px;
 }
 `;
 
@@ -117,7 +117,7 @@ color: #fff;
 cursor: pointer;
 background: #000d1a;
 border-radius: 50px;
-padding: 10px;
+padding: 5px;
 margin-right: 1rem;
 user-select: none;
 transition: 0.3s;

@@ -10,7 +10,7 @@ position: fixed;
 z-index: 999;
 width: 100%;
 height: 100%;
-background: #4863A0;
+background: #368BC1;
 display: grid;
 align-items: center;
 top: 0;
@@ -30,7 +30,7 @@ cursor: pointer;
 outline: none;
 `;
 const CloseIcon = styled(FaTimes)`
-color: #000d1a;
+color: #fff;
 `;
 
 const DropdownWrapper = styled.div``;
