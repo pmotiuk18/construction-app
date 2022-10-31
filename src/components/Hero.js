@@ -65,7 +65,7 @@ position: relative;
 z-index: 10;
 display: flex;
 flex-direction: column;
-max-width: 1600px;
+max-width: 290px;
 width: calc(100% - 100px);
 color: #fff;
 top: 130px;
