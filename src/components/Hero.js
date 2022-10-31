@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useRef} from 'react'
 import styled, { css } from 'styled-components/macro'
 import { Button } from './Button';
 import {IoMdArrowRoundForward} from 'react-icons/io'
@@ -70,6 +70,26 @@ width: calc(100% - 100px);
 color: #fff;
 top: 130px;
 left: 50px;
+
+@media screen and (max-width: 768px) {
+    display: block;
+}
+
+h1 {
+    font-size: clamp(1.7rem, 8vw, 1.7rem);
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px rgba (0,0,0,0.4);
+    text-align: left;
+    margin-bottom: 0.8rem;
+    max-width: 400px;
+}
+    p {
+        margin-bottom: 1.2rem;
+        text-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    }
+
+
 `;
 
 const Arrow = styled(IoMdArrowRoundForward)``;
@@ -124,6 +144,7 @@ const Hero = ({ slides }) => {
                         <Button to={slide.path} primary='true'
                           css={`
                           max-width: 160px;
+
                           `}
                       >
                             

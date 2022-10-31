@@ -37,13 +37,14 @@ display: none;
 @media screen and (max-width: 768px) {
   display: block;
   background-size: contain;
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
   cursor: pointer;
   color: white;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 0px;
+  right: 0px;
+  margin-right: 5px;
   tansform: translate(-50%, 25%);
 }
 

@@ -22,6 +22,6 @@ color: ${({ primary }) => (primary ? '#fff' : '#000d1a')};
 font-size: ${({ big }) => (big ? '20px' : '14px')};
 
 &:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
 }
 `
