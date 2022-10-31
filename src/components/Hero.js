@@ -94,10 +94,15 @@ margin-left: 0.5rem;
 
 const SliderButtons = styled.div`
 position: absolute;
-bottom: 70px;
-right: 30px;
+bottom: 50px;
+right: 50px;
 display: flex;
 z-index: 10;
+
+@media screen and (max-width: 768px) {
+  bottom: 70px;
+  right: 30px;
+}
 `;
 
 const arrowButtons = css`
@@ -112,10 +117,10 @@ margin-right: 1rem;
 user-select: none;
 transition: 0.3s;
 
-&:hover {
+/* &:hover {
     background: #728FCE;
     transform: scale(1.05);
-}
+} */
 `;
 
 const PrevArrow = styled(IoArrowBack)`
