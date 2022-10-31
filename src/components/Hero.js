@@ -95,7 +95,7 @@ margin-left: 0.5rem;
 const SliderButtons = styled.div`
 position: absolute;
 bottom: 70px;
-right: 70px;
+right: 30px;
 display: flex;
 z-index: 10;
 `;
@@ -137,7 +137,7 @@ useEffect(() => {
         setCurrent(current => (current === length - 1 ? 0 : current +1))
     }
 
-    timeout.current = setTimeout(nextSlide, 3000)
+    timeout.current = setTimeout(nextSlide, 10000)
 
     return function () {
         if(timeout.current) {

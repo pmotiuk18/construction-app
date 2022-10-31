@@ -1,6 +1,6 @@
 
 import img1 from '../img/house-1.jpg'
-import img2 from '../img/house-2.jpg'
+// import img2 from '../img/house-2.jpg'
 import img3 from '../img/house-3.jpg'
 import img4 from '../img/house-4.jpg'
 
@@ -14,11 +14,11 @@ export const SliderData = [
         alt: 'House'
     },
     {
-        title: 'Ocieplanie budynku',
+        title: 'Ocieplenie budynku',
         price: '70PLN/m²',
         path: '/homes',
         label: 'Wycena',
-        image: img2,
+        image: img4,
         alt: 'House'
     },
     {
@@ -29,12 +29,12 @@ export const SliderData = [
         image: img3,
         alt: 'House'
     },
-    {
-        title: 'Wykończenia kuchni, łazienek, salonów',
-        price: '180PLN/m²',
-        path: '/homes',
-        label: 'Wycena',
-        image: img4,
-        alt: 'House'
-    },
+    // {
+    //     title: 'Wykończenia kuchni, łazienek, salonów',
+    //     price: '180PLN/m²',
+    //     path: '/homes',
+    //     label: 'Wycena',
+    //     image: img4,
+    //     alt: 'House'
+    // },
 ]
