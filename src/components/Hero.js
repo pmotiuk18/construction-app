@@ -105,7 +105,7 @@ display: flex;
 z-index: 10;
 
 @media screen and (max-width: 768px) {
-  bottom: 35px;
+  bottom: 70px;
   right: 20px;
 }
 `;
