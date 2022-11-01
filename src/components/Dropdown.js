@@ -10,7 +10,8 @@ position: fixed;
 z-index: 999;
 width: 100%;
 height: 100%;
-background: #4863A0;
+/* background: #4863A0; */
+background: #000d10;
 /* background: url('../img/house-1.jpg'); */
 display: grid;
 align-items: center;

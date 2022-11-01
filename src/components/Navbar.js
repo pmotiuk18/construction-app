@@ -13,6 +13,7 @@ import {TbAlignLeft} from 'react-icons/tb'
     z-index: 100;
     position: fixed;
     width: 100%;
+    background: #000d10;
     /* background: #4863A0; */
     /* background: #98AFC7; */
     
