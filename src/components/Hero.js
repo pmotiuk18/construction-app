@@ -9,6 +9,7 @@ const HeroSection = styled.section`
     max-height: 1100px;
     position: relative;
     overflow: hidden;
+    padding: 0rem 0rem 3rem 0rem;
 `;
 
 const HeroWrapper = styled.div`
