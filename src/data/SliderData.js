@@ -15,7 +15,7 @@ export const SliderData = [
     },
     {
         title: 'Ocieplenie budynku',
-        price: '70PLN/m²',
+        price: '90PLN/m²',
         path: '/homes',
         label: 'Wycena',
         image: img1,
@@ -23,7 +23,7 @@ export const SliderData = [
     },
     {
         title: 'Nałożenie koloru',
-        price: '80PLN/m²',
+        price: '30PLN/m²',
         path: '/homes',
         label: 'Wycena',
         image: img3,
