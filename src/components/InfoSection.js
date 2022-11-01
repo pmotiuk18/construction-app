@@ -37,6 +37,10 @@ p {
     margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+    max-height: 50%;
+}
+
 `;
 
 const ColumnRight = styled.div`
