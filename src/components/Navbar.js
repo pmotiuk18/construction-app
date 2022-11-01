@@ -14,6 +14,8 @@ import {TbAlignLeft} from 'react-icons/tb'
     position: fixed;
     width: 100%;
     /* background: #4863A0; */
+    /* background: #98AFC7; */
+    
     `;
 
 const NavLink = css`
