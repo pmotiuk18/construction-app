@@ -26,7 +26,7 @@ flex-direction: column;
 justify-content: center;
 align-items: 1.4;
 padding: 1rem 2rem;
-/* order: ${({ reverse }) => (reverse ? '2' : '1') } */
+order: ${({ reverse }) => (reverse ? '2' : '1') }
 
 h1 {
     margin-bottom: 1rem;
@@ -61,7 +61,7 @@ img {
     
 @media screen and (max-width: 768px) {
     width: 130%;
-    height: 600%;
+    height: 60%;
     
 }
 
