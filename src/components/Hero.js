@@ -67,12 +67,12 @@ display: flex;
 flex-direction: column;
 max-width: 290px;
 width: calc(100% - 100px);
-color: #fff;
-top: 130px;
-left: 50px;
+color: #F0FFFF;
+top: 150px;
+left: 80px;
 
 @media screen and (max-width: 768px) {
-    top: 350px;
+    top: 250px;
     left: 50px;
 }
 
@@ -105,8 +105,8 @@ display: flex;
 z-index: 10;
 
 @media screen and (max-width: 768px) {
-  bottom: 100px;
-  right: 25px;
+  bottom: 50px;
+  right: 20px;
 }
 `;
 
