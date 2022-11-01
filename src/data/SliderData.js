@@ -1,8 +1,8 @@
 
-import img1 from '../img/house-1.jpg'
+import img1 from '../img/house-2.jpg'
 // import img2 from '../img/house-2.jpg'
 import img3 from '../img/house-3.jpg'
-import img4 from '../img/house-4.jpg'
+import img4 from '../img/house-7.jpg'
 
 export const SliderData = [
     {
@@ -10,7 +10,7 @@ export const SliderData = [
         price: '120PLN/m²',
         path: '/homes',
         label: 'Wycena',
-        image: img1,
+        image: img4,
         alt: 'House'
     },
     {
@@ -18,7 +18,7 @@ export const SliderData = [
         price: '70PLN/m²',
         path: '/homes',
         label: 'Wycena',
-        image: img4,
+        image: img1,
         alt: 'House'
     },
     {
