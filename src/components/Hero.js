@@ -5,11 +5,16 @@ import {IoMdArrowRoundForward} from 'react-icons/io'
 import {IoArrowBack, IoArrowForward } from 'react-icons/io5';
 
 const HeroSection = styled.section`
+    top: 60px;
     height: 100vh;
     max-height: 1100px;
     position: relative;
     overflow: hidden;
-    padding: 0rem 0rem 3rem 0rem;
+    padding: 0rem 0rem 6rem 0rem;
+
+    @media screen and (max-width: 768px) {
+        padding: 0rem 0rem 2rem 0rem;
+}
 `;
 
 const HeroWrapper = styled.div`
@@ -100,13 +105,13 @@ margin-left: 0.5rem;
 
 const SliderButtons = styled.div`
 position: absolute;
-bottom: 50px;
+bottom: 110px;
 right: 50px;
 display: flex;
 z-index: 10;
 
 @media screen and (max-width: 768px) {
-  bottom: 70px;
+  bottom: 130px;
   right: 20px;
 }
 `;

@@ -10,6 +10,8 @@ padding: 0 0 0 0;
 
 const Container = styled.div`
 padding: 3rem calc((100vw - 1300px) / 2);
+/* max-width: 1300px; */
+margin: 0 auto;
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 800px;
