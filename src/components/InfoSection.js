@@ -18,7 +18,8 @@ grid-template-rows: 800px;
 
 
 @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
+    grid-template-columns: 3fr;
+    display: block;
 }
 `;
 
@@ -31,29 +32,39 @@ padding: 1rem 2rem;
 order: ${({ reverse }) => (reverse ? '2' : '1') }
 
 h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-size: clamp(1.5rem, 6vw, 2rem);
 }
 
 p {
     margin-bottom: 2rem;
+    
 }
 
 @media screen and (max-width: 768px) {
-    max-height: 50%;
+    padding: 0rem 0rem 6rem 4rem;
+
+    p {
+    margin-bottom: 2rem;
+    
+    max-width: 400px;
+    }
 }
 
 `;
 
 const ColumnRight = styled.div`
-padding: 0rem 2rem;
+padding: 2rem 0rem 2rem 4rem;
 order: ${({ reverse }) => (reverse ? '1' : '2') };
 display: flex;
 justify-content: center;
 align-items: center;
 
 @media screen and (max-width: 768px) {
-    order: ${({ reverse }) => (reverse ? '2' : '1') }
+    order: ${({ reverse }) => (reverse ? '2' : '1') };
+    width: 90%;
+    height: 100%;
+    
 }
 
 img {
@@ -61,11 +72,6 @@ img {
     height: 100%;
     object-fit: cover;
     
-@media screen and (max-width: 768px) {
-    width: 130%;
-    height: 60%;
-    
-}
 
 }
 

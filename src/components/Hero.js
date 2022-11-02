@@ -13,7 +13,7 @@ const HeroSection = styled.section`
     padding: 0rem 0rem 6rem 0rem;
 
     @media screen and (max-width: 768px) {
-        padding: 0rem 0rem 2rem 0rem;
+        padding: 0rem 0rem 6rem 0rem;
 }
 `;
 
@@ -105,13 +105,13 @@ margin-left: 0.5rem;
 
 const SliderButtons = styled.div`
 position: absolute;
-bottom: 110px;
+bottom: 50px;
 right: 50px;
 display: flex;
 z-index: 10;
 
 @media screen and (max-width: 768px) {
-  bottom: 130px;
+  bottom: 70px;
   right: 20px;
 }
 `;
