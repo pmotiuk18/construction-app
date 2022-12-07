@@ -35,6 +35,7 @@ height: 100%;
 `;
 const HeroSlider = styled.div`
 position: absolute;
+z-index: 999;
 top: 0;
 left: 0;
 width: 100%;
@@ -95,7 +96,7 @@ h1 {
     p {
         margin-bottom: 1.2rem;
         text-shadow: 0px 0px 20px rgba(0,0,0,0.4);
-    }
+    } 
 
 
 `;
@@ -154,7 +155,7 @@ useEffect(() => {
         setCurrent(current => (current === length - 1 ? 0 : current +1))
     }
 
-    timeout.current = setTimeout(nextSlide, 10000)
+    timeout.current = setTimeout(nextSlide, 99999999999990000)
 
     return function () {
         if(timeout.current) {

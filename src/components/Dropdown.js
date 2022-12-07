@@ -71,13 +71,13 @@ justify-content: center;
 
 
 const Dropdown = ({ isOpen, toggle}) => {
-  const [ setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
   const [isV, setIsV] = useState(false);
 
 
 
   return (
-    <DropDownContainer isOpen={isOpen} onClick={(toggle) => setIsVisible(true)}>
+    <DropDownContainer isOpen={isOpen} >
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
