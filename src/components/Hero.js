@@ -29,13 +29,12 @@ position: relative;
 `;
 
 const HeroSlide = styled.div`
-
 width: 100%;
 height: 100%;
 `;
 const HeroSlider = styled.div`
 position: absolute;
-z-index: 999;
+z-index: 10;
 top: 0;
 left: 0;
 width: 100%;
@@ -155,7 +154,7 @@ useEffect(() => {
         setCurrent(current => (current === length - 1 ? 0 : current +1))
     }
 
-    timeout.current = setTimeout(nextSlide, 99990000)
+    timeout.current = setTimeout(nextSlide, 99999990000)
 
     return function () {
         if(timeout.current) {
