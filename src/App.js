@@ -8,6 +8,7 @@ import InfoSection from "./components/InfoSection";
 import { InfoData, InfoData2, InfoData3, InfoData4, InfoData5, InfoData6 } from "./data/InfoData";
 
 
+
 function App() {
 const [isOpen, setIsOpen] = useState(true)
 
@@ -27,6 +28,7 @@ const toggle = () => {
     <InfoSection {...InfoData4}/>
     <InfoSection {...InfoData5}/>
     <InfoSection {...InfoData6}/>
+
 
 </>
   );

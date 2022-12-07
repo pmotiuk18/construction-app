@@ -4,6 +4,7 @@ import { Button } from './Button';
 import {IoMdArrowRoundForward} from 'react-icons/io'
 import {IoArrowBack, IoArrowForward } from 'react-icons/io5';
 
+
 const HeroSection = styled.section`
     top: 60px;
     height: 100vh;
@@ -213,6 +214,7 @@ if(!Array.isArray(slides) || slides.length <= 0) {
             <NextArrow onClick={nextSlide} />
         </SliderButtons>
       </HeroWrapper>
+
     </HeroSection>
   );
 };

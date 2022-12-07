@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from 'styled-components'
 import { menuData } from '../data/MenuData';
 import { Button } from './Button';
@@ -70,9 +70,14 @@ justify-content: center;
 `;
 
 
-const Dropdown = ({ isOpen, toggle }) => {
+const Dropdown = ({ isOpen, toggle}) => {
+  const [ setIsVisible] = useState(false);
+  const [isV, setIsV] = useState(false);
+
+
+
   return (
-    <DropDownContainer isOpen={isOpen} onClick={toggle}>
+    <DropDownContainer isOpen={isOpen} onClick={(toggle) => setIsVisible(true)}>
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
@@ -85,7 +90,11 @@ const Dropdown = ({ isOpen, toggle }) => {
           ))}
         </DropDownMenu>
         <BtnWrap>
-          <Button primary="true" round="true" big="true" to="/contact">Kontakt</Button>
+        {isV ? <Button onClick= {() => setIsV(false)} primary="true" round="true" big="true" >
+        982 728 329, ul. Warszawska 10
+          </Button> 
+         : <Button onClick={() => setIsV(true)} primary='true' big="true" round="true" >Kontakt</Button>}
+          {/* <Button primary="true" round="true" big="true" to="/contact">Kontakt</Button> */}
         </BtnWrap>
       </DropdownWrapper>
     </DropDownContainer>

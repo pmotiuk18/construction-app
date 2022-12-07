@@ -1,9 +1,10 @@
-    import React from 'react';
+    import React, {useState} from 'react';
     import styled, {css} from 'styled-components/macro';
     import { Link } from 'react-router-dom';
 import { menuData } from '../data/MenuData';
-import { Button } from './Button';
+import { Button, } from './Button';
 import {TbAlignLeft} from 'react-icons/tb'
+
 
     const Nav = styled.nav`
     height: 60px;
@@ -83,6 +84,10 @@ margin-right: 24px;
 
 
     const Navbar = ({ toggle }) => {
+      const [isVisible, setIsVisible] = useState(false);
+      
+
+
       return (
         <Nav>
           <Logo to="/">LOGO</Logo>
@@ -95,11 +100,25 @@ margin-right: 24px;
             ))}
           </NavMenu>
               <NavBtn>
-                <Button to="/contact" primary='true'>Kontakt</Button>
+              {isVisible ? <Button onClick= {() => setIsVisible(false)} primary='true'>
+              
+              982 728 329, ul. Warszawska 10
+
+
+              </Button> 
+              : <Button primary='true' onClick={() => setIsVisible(true)}>
+              Kontakt
+                </Button>}
+
+                {/* <Button to="/contact" primary='true'>Kontsssssakt</Button> */}
               </NavBtn>
+              
         </Nav>
       );
     };
     
+    
+
+
     export default Navbar;
     
