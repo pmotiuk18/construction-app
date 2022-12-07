@@ -29,7 +29,7 @@ position: relative;
 `;
 
 const HeroSlide = styled.div`
-z-index: 1;
+
 width: 100%;
 height: 100%;
 `;
