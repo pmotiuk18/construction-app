@@ -10,7 +10,8 @@ position: fixed;
 z-index: 999;
 width: 100%;
 height: 100%;
-background: #000d1a;
+background: black;
+/* background: #000d1a; */
 /* background: #4863A0; */
 /* background: #000d10; */
 /* background: url('../img/house-1.jpg'); */
@@ -62,7 +63,7 @@ cursor: pointer;
 transition: 0.2s ease-in-out;
 
 &:hover {
-  color: #000d1a;
+  color: #fff;
 }
 `;
 const BtnWrap = styled.div`
