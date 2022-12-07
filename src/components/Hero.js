@@ -154,7 +154,7 @@ useEffect(() => {
         setCurrent(current => (current === length - 1 ? 0 : current +1))
     }
 
-    timeout.current = setTimeout(nextSlide, 99999990000)
+    timeout.current = setTimeout(nextSlide, 10000)
 
     return function () {
         if(timeout.current) {
