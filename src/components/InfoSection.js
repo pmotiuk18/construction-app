@@ -27,17 +27,19 @@ const ColumnLeft = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: 1.4;
+align-items: center;
 padding: 1rem 2rem;
 order: ${({ reverse }) => (reverse ? '2' : '1') };
 
 h1 {
     margin-bottom: 2rem;
     font-size: clamp(1.5rem, 6vw, 2rem);
+    text-align: center;
 }
 
 p {
     margin-bottom: 2rem;
+    text-align: center;
     
 }
 
