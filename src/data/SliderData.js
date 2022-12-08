@@ -1,8 +1,8 @@
 
-import img1 from '../img/bb1.jpg'
-import img2 from '../img/b1.jpg'
-import img3 from '../img/b2.jpg'
-import img4 from '../img/b4.jpg'
+import img1 from '../img/h5.jpg'
+import img2 from '../img/h7.jpg'
+import img3 from '../img/b1.jpg'
+
 
 
 
@@ -31,14 +31,7 @@ export const SliderData = [
         image: img3,
         alt: 'House'
     },
-    {
-        title: 'Elewacja budynku wolnostojącego',
-        price: '120PLN/m²',
-        path: '/homes',
-        label: 'Wycena',
-        image: img4,
-        alt: 'House'
-    },
+
     
 
     // {
