@@ -42,18 +42,20 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-    /* padding: 0rem 0rem 6rem 4rem; */
+    padding: 0rem 0rem 6rem 0rem;
 align-items: center;
 
     h1 {
     margin-bottom: 2rem;
     font-size: clamp(1.5rem, 6vw, 2rem);
-    text-align: justify;
+    /* text-align: justify; */
 }
 
     p {
     margin-bottom: 2rem;
     max-width: 400px;
+    /* text-align: justify; */
+    text-align: center;
     }
 
 
