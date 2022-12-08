@@ -42,7 +42,7 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-    padding: 0rem 0rem 6rem 4rem;
+    /* padding: 0rem 0rem 6rem 4rem; */
 
     h1 {
     margin-bottom: 2rem;
