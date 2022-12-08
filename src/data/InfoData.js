@@ -8,7 +8,7 @@ import img6 from '../img/a6.jpg'
 
 
 export const InfoData = {
- heading: 'Explore our beautiful homes. Explore our beautiful homes. Explore our beautiful homes. ',   
+ heading: 'Explore our beautiful homes. ',   
  paragraphOne: 'Autotype code. This will change when website will be ready! Autotype code. This will change when website will be ready! Autotype code. This will change when website will be ready! Autotype code. This will change when website will be ready! Autotype code. This will change when website will be ready! ',
  paragraphTwo: 'Autotype code. This will change when website will be ready! Autotype code. This will change when website will be ready! Autotype code. This will change when website will be ready! Autotype code. This will change when website will be ready! Autotype code. This will change when website will be ready! Autotype code. This will change when website will be ready! ',
  buttonLabel: 'Inne projekty',
