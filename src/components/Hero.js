@@ -7,7 +7,7 @@ import {IoArrowBack, IoArrowForward } from 'react-icons/io5';
 
 const HeroSection = styled.section`
     top: 60px;
-    height: 100vh;
+    height: 104vh;
     max-height: 1300px;
     position: relative;
     overflow: hidden;
@@ -72,7 +72,7 @@ position: relative;
 z-index: 999;
 display: flex;
 flex-direction: column;
-max-width: 290px;
+max-width: 280px;
 width: calc(100% - 100px);
 color: #F0FFFF;
 top: 150px;
