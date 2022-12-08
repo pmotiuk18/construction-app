@@ -11,7 +11,7 @@ padding: 0 0 0 0;
 const Container = styled.div`
 padding: 3rem calc((100vw - 1300px) / 2);
 /* max-width: 1300px; */
-margin: 0 auto;
+margin: 0;
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 800px;
@@ -29,7 +29,7 @@ flex-direction: column;
 justify-content: center;
 align-items: 1.4;
 padding: 1rem 2rem;
-order: ${({ reverse }) => (reverse ? '2' : '1') }
+order: ${({ reverse }) => (reverse ? '2' : '1') };
 
 h1 {
     margin-bottom: 2rem;
@@ -43,6 +43,11 @@ p {
 
 @media screen and (max-width: 768px) {
     padding: 0rem 0rem 6rem 4rem;
+
+    h1 {
+    margin-bottom: 2rem;
+    font-size: clamp(1.5rem, 6vw, 2rem);
+}
 
     p {
     margin-bottom: 2rem;

@@ -11,7 +11,7 @@ export const InfoData = {
  heading: 'Explore our beautiful homes',   
  paragraphOne: 'Autotype code. This will change when website will be ready!',
  paragraphTwo: 'Autotype code. This will change when website will be ready!',
- buttonLabel: 'View Homes',
+ buttonLabel: 'Inne projekty',
  image: img1,
  reverse: false,
  delay: 100

@@ -1,7 +1,5 @@
-
-import img1 from '../img/h5.jpg'
-import img2 from '../img/h7.jpg'
-import img3 from '../img/b1.jpg'
+import img1 from '../img/13.jpg'
+import img2 from '../img/14.jpg'
 
 
 
@@ -10,7 +8,7 @@ export const SliderData = [
     {
         title: 'Elewacja budynku wolnostojącego',
         price: '120PLN/m²',
-        path: '/homes',
+        path: '/wycena',
         label: 'Wycena',
         image: img1,
         alt: 'House'
@@ -18,19 +16,12 @@ export const SliderData = [
     {
         title: 'Elewacja budynku wolnostojącego',
         price: '120PLN/m²',
-        path: '/homes',
+        path: '/wycena',
         label: 'Wycena',
         image: img2,
         alt: 'House'
     },
-    {
-        title: 'Elewacja budynku wolnostojącego',
-        price: '120PLN/m²',
-        path: '/homes',
-        label: 'Wycena',
-        image: img3,
-        alt: 'House'
-    },
+
 
     
 

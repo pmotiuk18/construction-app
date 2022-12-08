@@ -19,7 +19,7 @@ padding: ${({ big }) => (big ? '16px 40px' :
 '14px 24px') };
 color: ${({ primary }) => (primary ? 'white' : 'green')};
 
-font-size: ${({ big }) => (big ? '25px' : '19px')};
+font-size: ${({ big }) => (big ? '25px' : '18px')};
 
 &:hover {
     transform: translateY(-3px);
