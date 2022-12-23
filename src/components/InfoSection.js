@@ -80,8 +80,8 @@ align-items: center;
 }
 
 img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 90%;
     object-fit: cover;
     
 
@@ -113,4 +113,4 @@ const InfoSection = ({heading, paragraphOne, paragraphTwo,
   )
 }
 
-export default InfoSection
+export default InfoSection;

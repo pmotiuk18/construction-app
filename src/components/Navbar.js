@@ -21,6 +21,10 @@ import {TbAlignLeft} from 'react-icons/tb'
     /* background: #4863A0; */
     /* background: #98AFC7; */
     
+    @media screen and (max-width: 768px) {
+height: 90px;
+}
+
     `;
 
 const NavLink = css`
@@ -44,8 +48,8 @@ display: none;
 @media screen and (max-width: 768px) {
   display: block;
   background-size: contain;
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
  cursor: pointer;
   color: white;
   position: absolute;

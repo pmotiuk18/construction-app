@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import { Button } from '../components/Button';
 
 
+
+
 const WycenaContainer = styled.div`
 display: flex;
 flex-direction: column;
@@ -39,11 +41,15 @@ font-size: 50px;
 border: 2px solid #000;
 margin-left: 1rem;
 margin-right: 1rem;
+padding-left: 0.2rem;
 
 @media screen and (max-width: 768px) {
-    max-width: 75px;
-    font-size: 30px;
+    max-width: 73px;
+    font-size: 29px;
     border: 2px solid #000;
+    color: #000;
+    padding-left: 0.4rem;
+
 
 }
 `;
@@ -51,6 +57,8 @@ margin-right: 1rem;
 const Result = styled.div`
 padding-top: 2rem;
 font-size: 20px;
+justify-content: center;
+
 `;
 
 function Wycena() {
@@ -79,7 +87,8 @@ function Wycena() {
         <>
         
 <Header>
-     
+
+
       <WycenaContainer>
 
         <Abhi ><div>{num1} zł/m²</div><Meter type="number" value={num2} onChange={handleNum2Change} /> m2</Abhi>
@@ -91,8 +100,9 @@ function Wycena() {
 
       {/* <HeroWycena slides={SliderData} /> */}
 
-      </Header>
 
+
+      </Header>
 
 
       </>
