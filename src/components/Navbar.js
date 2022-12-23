@@ -1,4 +1,4 @@
-    import React, {useState} from 'react';
+    import React from 'react';
     import styled, {css} from 'styled-components/macro';
     import { Link } from 'react-router-dom';
 import { menuData } from '../data/MenuData';
@@ -15,6 +15,7 @@ import {TbAlignLeft} from 'react-icons/tb'
     position: fixed;
     width: 100%;
     background: black;
+    top: 0;
     /* background: #000d1a; */
     /* background: #000d10; */
     /* background: #4863A0; */
@@ -86,23 +87,23 @@ margin-right: 24px;
 
 
     const Navbar = ({ toggle }) => {
-      const [isVisible, setIsVisible] = useState(false);
+
       
 
 
       return (
         <Nav>
-          <Logo to="/">Strona główna</Logo>
+          <Logo  to="/">Strona główna</Logo>
           <MenuBars onClick={toggle} />
           <NavMenu>
             {menuData.map((item, index) => (
-              <NavMenuLinks to={item.link} key={index}>
+              <NavMenuLinks to={item.link} key={index} >
                 {item.title}
               </NavMenuLinks>
             ))}
           </NavMenu>
               <NavBtn>
-              {isVisible ? <Button onClick= {() => setIsVisible(false)} primary='true'>
+              {/* {isVisible ? <Button onClick= {() => setIsVisible(false)} primary='true'>
               
               982 728 329, ul. Warszawska 10
 
@@ -110,9 +111,9 @@ margin-right: 24px;
               </Button> 
               : <Button primary='true' onClick={() => setIsVisible(true)}>
               Kontakt
-                </Button>}
+                </Button>}  */}
 
-                {/* <Button to="/contact" primary='true'>Kontsssssakt</Button> */}
+                <Button to="/contact" primary='true'>Kontakt</Button>
               </NavBtn>
               
         </Nav>

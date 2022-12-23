@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import { menuData } from '../data/MenuData';
 import { Button } from './Button';
@@ -74,7 +74,7 @@ justify-content: center;
 
 const Dropdown = ({ isOpen, toggle}) => {
   // const [isVisible, setIsVisible] = useState(false);
-  const [isV, setIsV] = useState(false);
+
 
 
 
@@ -86,16 +86,17 @@ const Dropdown = ({ isOpen, toggle}) => {
       <DropdownWrapper>
         <DropDownMenu>
           {menuData.map((item,index) => (
-                <DropdownLink to={item.link} key={index}>
+                <DropdownLink to={item.link} key={index} onClick={toggle}>
                   {item.title}
                 </DropdownLink>
           ))}
         </DropDownMenu>
         <BtnWrap>
-        {isV ? <Button onClick= {() => setIsV(false)} primary="true" round="true" big="true" >
+        <Button to="/contact" primary="true" big="true" round="true" onClick={toggle}>Kontakt</Button>
+        {/* {isV ? <Button onClick= {() => setIsV(false)} primary="true" round="true" big="true" >
         982 728 329, ul. Warszawska 10
           </Button> 
-         : <Button onClick={() => setIsV(true)} primary='true' big="true" round="true" >Kontakt</Button>}
+         : <Button onClick={() => setIsV(true)} primary='true' big="true" round="true" >Kontakt</Button>} */}
           {/* <Button primary="true" round="true" big="true" to="/contact">Kontakt</Button> */}
         </BtnWrap>
       </DropdownWrapper>
