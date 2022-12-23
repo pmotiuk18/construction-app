@@ -19,6 +19,11 @@ order: ${({ reverse }) => (reverse ? '2' : '1') };
 const Header = styled.div`
 margin-top: 100px;
 padding-left: 2rem;
+
+@media screen and (max-width: 768px) {
+    margin-top: 150px;
+}
+
 `;
 
 

@@ -10,6 +10,7 @@ import { Wycena } from './pages/Wycena';
 import Layout from './components/Layout';
 import { Contact } from './pages/Contact';
 import { Projekty } from './pages/Projekty';
+import { Zdjecia } from './pages/Zdjecia';
 
 const router = createBrowserRouter([
     {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
     {
         path: "/contact",
         element: <Layout><Contact /></Layout>
+    },
+    {
+        path: "/zdjecia",
+        element: <Layout><Zdjecia /></Layout>
     },
 ]);
 
