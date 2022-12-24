@@ -40,6 +40,7 @@ text-decoration: none;
 const Logo = styled(Link)`
     ${NavLink}
     font-style: normal;
+    font-size: 23px;
 `;
 
 const MenuBars = styled(TbAlignLeft)`
@@ -98,7 +99,7 @@ margin-right: 24px;
 
       return (
         <Nav>
-          <Logo  to="/">Strona główna</Logo>
+          <Logo  to="/">LOGO</Logo>
           <MenuBars onClick={toggle} />
           <NavMenu>
             {menuData.map((item, index) => (
