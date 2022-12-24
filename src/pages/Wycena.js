@@ -30,7 +30,7 @@ padding-left: 2rem;
 const Abhi = styled.div`
 display: flex;
 font-size: 50px;
-padding-bottom: 1rem;
+padding-bottom: 2rem;
 
 @media screen and (max-width: 768px) {
     padding-bottom: 3rem;
@@ -59,10 +59,22 @@ padding-left: 0.2rem;
 }
 `;
 
+const M2 = styled.div`
+padding-right: 1rem;
+`;
+
 const Result = styled.div`
 padding-top: 2rem;
-font-size: 20px;
-justify-content: center;
+font-size: 30px;
+display: flex;
+
+
+h4
+{
+  padding-left: 0.5rem;
+}
+
+
 
 `;
 
@@ -96,10 +108,10 @@ function Wycena() {
 
       <WycenaContainer>
 
-        <Abhi ><div>{num1} zł/m²</div><Meter type="number" value={num2} onChange={handleNum2Change} /> m2</Abhi>
+        <Abhi ><div>{num1} zł/m²</div><Meter type="number" value={num2} onChange={handleNum2Change} /> <M2>m2</M2>  </Abhi>
         
         <Button primary="true" round="true" onClick={handleCalculateClick}>Wycena</Button>
-        <Result>Szacunkowy koszt zlecenia: {result} PLN</Result>
+        <Result>Szacunkowy koszt zlecenia: <h4>{result} PLN</h4></Result>
 
       </WycenaContainer>
 

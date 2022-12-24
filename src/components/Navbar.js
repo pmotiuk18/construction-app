@@ -22,7 +22,7 @@ import {TbAlignLeft} from 'react-icons/tb'
     /* background: #98AFC7; */
     
     @media screen and (max-width: 768px) {
-height: 90px;
+height: 80px;
 }
 
     `;

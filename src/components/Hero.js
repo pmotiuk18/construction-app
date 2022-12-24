@@ -91,10 +91,16 @@ h1 {
     text-align: left;
     margin-bottom: 0.8rem;
     max-width: 400px;
+    background-color: #000000c5;
+    padding-top: 1rem;
+    margin-right: -0.4rem;
 }
     p {
         margin-bottom: 1.2rem;
         text-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+        background-color: #000000d1;
+        max-width: 90px;
+        padding-top: 0.5rem;
     } 
 
 

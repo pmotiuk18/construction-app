@@ -1,9 +1,9 @@
 import img1 from '../img/h14.jpg'
-import img2 from '../img/a2.jpg'
-import img3 from '../img/a3.jpg'
-import img4 from '../img/a4.jpg'
-import img5 from '../img/a5.jpg'
-import img6 from '../img/a6.jpg'
+import img2 from '../img/h2.jpg'
+import img3 from '../img/h4.jpg'
+import img4 from '../img/15.jpg'
+import img5 from '../img/16.jpg'
+import img6 from '../img/10.jpg'
 
 
 
