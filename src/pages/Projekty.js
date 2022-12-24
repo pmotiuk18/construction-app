@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Button } from "../components/Button";
 import img1 from '../img/17.jpg'
 import img2 from '../img/h14.jpg'
+import img3 from '../img/ae.jpg'
 
 
 const Section = styled.section`
@@ -130,6 +131,17 @@ const Projekty = ({reverse,
                 </ColumnLeft>
                 <ColumnRight reverse={reverse}>
                 <img src={img2} alt='projekty' />
+                </ColumnRight>
+            </Container>
+            <Container >
+                <ColumnLeft >
+                <h1>Nowoczesny design</h1>
+                <p>Sprawdź nasze nowatorskie rozwiązania oraz design, który podbieramy specjalnie według uznań klientów</p>
+
+                <Button to="/zdjecia2" primary='true'>Więcej zdjęć</Button>
+                </ColumnLeft>
+                <ColumnRight reverse={reverse}>
+                <img src={img3} alt='projekty' />
                 </ColumnRight>
             </Container>
         </Section>

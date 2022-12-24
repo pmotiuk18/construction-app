@@ -11,7 +11,8 @@ import Layout from './components/Layout';
 import { Contact } from './pages/Contact';
 import { Projekty } from './pages/Projekty';
 import { Zdjecia } from './pages/Zdjecia';
-import { Zdjecia1 } from './pages/Zjecia1';
+import { Zdjecia1 } from './pages/Zdjecia1';
+import { Zdjecia2 } from './pages/Zdjecia2';
 
 
 const router = createBrowserRouter([
@@ -56,6 +57,10 @@ const router = createBrowserRouter([
     {
         path: "/zdjecia1",
         element: <Layout><Zdjecia1 /></Layout>
+    },
+    {
+        path: "/zdjecia2",
+        element: <Layout><Zdjecia2 /></Layout>
     },
 ]);
 

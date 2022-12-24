@@ -1,5 +1,5 @@
-import img1 from '../img/h6.jpg'
-import img2 from '../img/b1.jpg'
+import img1 from '../img/b1.jpg'
+import img2 from '../img/h6.jpg'
 
 
 
