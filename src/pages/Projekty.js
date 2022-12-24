@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { Button } from "../components/Button";
-import img1 from '../img/house-5.jpg'
+import img1 from '../img/17.jpg'
+import img2 from '../img/h14.jpg'
 
 
 const Section = styled.section`
@@ -118,6 +119,17 @@ const Projekty = ({reverse,
                 </ColumnLeft>
                 <ColumnRight reverse={reverse}>
                 <img src={img1} alt='projekty' />
+                </ColumnRight>
+            </Container>
+            <Container >
+                <ColumnLeft >
+                <h1>Nowoczesny design</h1>
+                <p>Sprawdź nasze nowatorskie rozwiązania oraz design, który podbieramy specjalnie według uznań klientów</p>
+
+                <Button to="/zdjecia1" primary='true'>Więcej zdjęć</Button>
+                </ColumnLeft>
+                <ColumnRight reverse={reverse}>
+                <img src={img2} alt='projekty' />
                 </ColumnRight>
             </Container>
         </Section>

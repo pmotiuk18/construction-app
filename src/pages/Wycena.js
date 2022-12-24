@@ -111,7 +111,7 @@ function Wycena() {
         <Abhi ><div>{num1} zł/m²</div><Meter type="number" value={num2} onChange={handleNum2Change} /> <M2>m2</M2>  </Abhi>
         
         <Button primary="true" round="true" onClick={handleCalculateClick}>Wycena</Button>
-        <Result>Szacunkowy koszt zlecenia: <h4>{result} PLN</h4></Result>
+        <Result>Szacunkowy koszt zlecenia: {result} PLN</Result>
 
       </WycenaContainer>
 

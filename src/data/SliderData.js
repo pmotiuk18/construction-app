@@ -1,4 +1,5 @@
-import img1 from '../img/drgg.jpg'
+import img1 from '../img/h6.jpg'
+import img2 from '../img/b1.jpg'
 
 
 
@@ -14,7 +15,14 @@ export const SliderData = [
         image: img1,
         alt: 'House'
     },
-  
+    {
+        title: 'Elewacja budynku wolnostojącego',
+        price: '120PLN/m²',
+        path: '/wycena',
+        label: 'Wycena',
+        image: img2,
+        alt: 'House'
+    }
 
 
 

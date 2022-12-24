@@ -1,16 +1,16 @@
-import img1 from '../img/h14.jpg'
-import img2 from '../img/h2.jpg'
-import img3 from '../img/h4.jpg'
-import img4 from '../img/15.jpg'
-import img5 from '../img/16.jpg'
-import img6 from '../img/10.jpg'
+import img1 from '../img/212.jpg'
+import img2 from '../img/h42.jpg'
+import img3 from '../img/152.jpg'
+import img4 from '../img/162.jpg'
+import img5 from '../img/112.jpg'
+import img6 from '../img/102.jpg'
 
 
 
 export const InfoData = {
- heading: 'Sprawdź nasze projekty. ',   
+ heading: 'Sprawdź nasze prace. ',   
 
- buttonLabel: 'Inne projekty',
+ buttonLabel: 'Wszystkie projekty',
  image: img1,
  reverse: false,
  delay: 100

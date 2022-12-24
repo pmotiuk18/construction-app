@@ -50,7 +50,7 @@ img {
 
 const Header = styled.div`
 
-margin-top: 100px;
+margin-top: 60px;
 
 @media screen and (max-width: 768px) {
     margin-top: 150px;
