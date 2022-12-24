@@ -48,14 +48,15 @@ display: none;
 @media screen and (max-width: 768px) {
   display: block;
   background-size: contain;
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
  cursor: pointer;
   color: white;
   position: absolute;
   top: 0px;
   right: 0px;
   margin-right: 5px;
+  margin-top: 3px;
   tansform: translate(-50%, 25%);
 }
 
